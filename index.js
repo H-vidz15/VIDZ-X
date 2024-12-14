@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting VIDZ-MD 😁...");
+console.log("Connecting VIDZ-X 😁...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*VIDZ-MD CONNECTED SUCCESSFUL* 🧘🏼‍♂️\n\n`;
+let up = `*VIDZ-X CONNECTED SUCCESSFUL* 🧘🏼‍♂️\n\n`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://avatars.githubusercontent.com/u/180777006?s=400&u=32ae9409b34dcd2d768fe740d61af7a7d22c3ba4&v=4` }, caption: up })
 
