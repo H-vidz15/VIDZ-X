@@ -1,4 +1,4 @@
-const {readEnv} = require('../lib/database')
+const config = require('..config')
 const {cmd , commands} = require('../command')
 
 cmd({
@@ -21,7 +21,7 @@ search: ''
 
 for (let i = 0; i < commands.length; i++) {
 if (commands[i].pattern && !commands[i].dontAddCommandList) {
-menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 } 
 
@@ -34,19 +34,19 @@ ${menu.download}
 
 ${menu.main}
 
-> *GROUP COMMANDS* ▶️
+> *GROUP MENU* ▶️
 
 ${menu.group}
 
-> *OWNER COMMANDS* 🧘🏼‍♂️
+> *OWNER MENU* 🧘🏼‍♂️
 
 ${menu.owner}
 
-> *CONVERT COMMANDS* 🤸
+> *CONVERT MENU* 🤸
 
 ${menu.convert}
 
-> *SEARCH COMMANDS* 🔎
+> *SEARCH MENU* 🔎
 
 ${menu.search}
 
