@@ -39,13 +39,13 @@ cmd({
     }
     const data = search.videos[0];
     const url = data.url
-    let desc = ` 🔥 *VIDZ-MD VIDEO DOWNLOADER* 🔥 
+    let desc = ` 🔥 *VIDZ-X VIDEO DOWNLOADER* 🔥 
 title: ${data.title} 
 description: ${data.description} 
 time: ${data.timestamp} 
 ago: ${data.ago} 
 views: ${data.views} 
-*MADE BY VIDZ 🤟🏻* `
+*MADE BY VIDZ *🤟🏻 `
     await conn.sendMessage(from, {
       image: {
         url: data.thumbnail
@@ -62,7 +62,7 @@ views: ${data.views}
       video: {
         url: downloadUrl
       },
-      caption: "*MADE BY VIDZ🧘🏼‍♂️*"
+      caption: "*MADE BY VIDZ*🧘🏼‍♂️"
     }, {
       quoted: mek
     })
