@@ -29,23 +29,23 @@ let madeMenu = `🤟🏻 *Wagwan ${pushname}*
 
 ${menu.download}
 
-> *MAIN COMMANDS* 🔥
+> *MAIN MENU* 🔥
 
 ${menu.main}
 
-> *GROUP COMMANDS* ▶️
+> *GROUP MENU* ▶️
 
 ${menu.group}
 
-> *OWNER COMMANDS* 🧘🏼‍♂️
+> *OWNER MENU* 🧘🏼‍♂️
 
 ${menu.owner}
 
-> *CONVERT COMMANDS* 🤸
+> *CONVERT MENU* 🤸
 
 ${menu.convert}
 
-> *SEARCH COMMANDS* 🔎
+> *SEARCH MENU* 🔎
 
 ${menu.search}
 
