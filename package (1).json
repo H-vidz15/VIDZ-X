@@ -1,12 +1,12 @@
 {
-  "name": "VIDZ-MD",
+  "name": "VIDZ-X",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name wabot-vidz-md",
-    "stop": "pm2 stop wabot-vidz-md",
-    "restart": "pm2 restart wabot-vidz-md"
+    "start": "pm2 start index.js --deep-monitoring --attach --name wabot-vidz-x",
+    "stop": "pm2 stop wabot-vidz-x",
+    "restart": "pm2 restart wabot-vidz-x"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
