@@ -39,7 +39,7 @@ cmd({
     }
     const data = search.videos[0];
     const url = data.url
-    let desc = ` 🔥 *VIDZ-MD SONG DOWNLOADER* 🔥 
+    let desc = ` 🔥 *VIDZ-X SONG DOWNLOADER* 🔥 
 title: ${data.title} 
 description: ${data.description} 
 time: ${data.timestamp} 
