@@ -45,7 +45,7 @@ description: ${data.description}
 time: ${data.timestamp} 
 ago: ${data.ago} 
 views: ${data.views} 
-*MADE BY VIDZ 🤟🏻* `
+*MADE BY VIDZ* 🤟🏻 `
     await conn.sendMessage(from, {
       image: {
         url: data.thumbnail
@@ -72,7 +72,7 @@ views: ${data.views}
       },
       mimetype: "audio/mpeg",
       fileName: data.title + ".mp3",
-      caption: "*MADE BY VIDZ🧘🏼‍♂️*"
+      caption: "*MADE BY VIDZ*🧘🏼‍♂️"
     }, {
       quoted: mek
     })
